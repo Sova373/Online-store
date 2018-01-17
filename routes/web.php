@@ -20,3 +20,8 @@ Route::get('/', function () {
 Route::get('/home', function () {
     return view('home');
 })->name('home');
+
+Route::get('/products', 'ProductController@index')->name('products');
+Route::get('/products/{id}', 'ProductController@show')->name('show_product');
+
+Route::post('/products/get_sku', 'SkuController@getByAttributes')->name('get_by_attributes');

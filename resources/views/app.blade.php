@@ -7,7 +7,7 @@
 
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Booking tickets on football</title>
+    <title>Online Store</title>
     <!-- CDN -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
@@ -29,7 +29,7 @@
                 <a class="navbar-brand" href="{{ route('home') }}"> Online Store </a>
             </div>
             <ul class="nav navbar-nav">
-                <li><a href="{{ route('home') }}"> Products </a></li>
+                <li><a href="{{ route('products') }}"> Products </a></li>
                 <li><a href="#">Something else</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
